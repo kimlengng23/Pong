@@ -25,4 +25,11 @@ public class BallControl : MonoBehaviour {
 	void Update () {
 		
 	}
+    void OnCollisionEnter2D(Collision2D colInfo)
+    {
+        if(colInfo.collider.tag == "Player")
+        {
+            //rb.velocity = rb.velocity.y / 2 + colInfo.rigidbody.velocity.y/3;
+        }
+    }
 }

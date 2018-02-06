@@ -333,9 +333,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_LinearDrag: 0.05
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 6f2f4dbb4d06b9649b3b8bf052642a1c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -531,6 +531,7 @@ MonoBehaviour:
   moveUp: 273
   moveDown: 274
   speed: 10
+  mainCam: {fileID: 52897687}
 --- !u!61 &862559166
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -750,7 +751,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -771,6 +772,7 @@ MonoBehaviour:
   moveUp: 119
   moveDown: 115
   speed: 10
+  mainCam: {fileID: 52897687}
 --- !u!61 &1878756084
 BoxCollider2D:
   m_ObjectHideFlags: 0
